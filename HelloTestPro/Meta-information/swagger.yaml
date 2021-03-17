@@ -1,0 +1,38 @@
+basePath: /HelloWorld
+host: localhost:8290
+info:
+  contact:
+    email: apiteam@swagger.io
+  description: 'This is a sample server Petstore server.  You can find out more about
+    Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For
+    this sample, you can use the api key `special-key` to test the authorization filters.'
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: HelloWorld
+  version: 1.0.5
+paths:
+  /*:
+    get:
+      responses:
+        "200":
+          description: successful operation
+        "400":
+          description: Invalid ID supplied
+        "404":
+          description: Pet not found
+      security:
+      - api_key: []
+schemes:
+- http
+- https
+securityDefinitions:
+  api_key:
+    in: header
+    name: api_key
+    type: apiKey
+swagger: "2.0"
+tags:
+- description: HelloWorld
+  name: HelloWorld
