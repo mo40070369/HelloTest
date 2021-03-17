@@ -1,0 +1,16 @@
+availableTiers:
+- name: Unlimited
+context: null
+enableStore: true
+id:
+  apiName: $APINAME
+  providerName: admin
+  version: $APIVERSION
+context: /$APINAME/$APIVERSION
+contextTemplate: /$APINAME/{version}
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
+status: CREATED
+transports: http,https
+type: HTTP
+visibility: public
