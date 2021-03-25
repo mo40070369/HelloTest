@@ -2,7 +2,7 @@
     <log level="custom">
         <property name="Testing Log" value="******************Hello World First Time******************"/>
 	<property name="Testing Log" value="******************Hello World Second Time******************"/>
-		<property name="Testing Log" value="******************Hello World Third Time******************"/>
+		<property name="Testing Log" value="******************Hello World final Time******************"/>
 
 
     </log>
